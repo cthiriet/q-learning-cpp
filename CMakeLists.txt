@@ -12,7 +12,7 @@ file(GLOB_RECURSE SOURCE_FILES src/*.cpp)
 
 # type of compilation
 if(NOT CMAKE_BUILD_TYPE)
-  set(CMAKE_BUILD_TYPE Release)
+  set(CMAKE_BUILD_TYPE RELEASE)
 endif()
 
 # compilation options
